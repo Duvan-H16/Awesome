@@ -31,8 +31,7 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
 - Instalar dependencias
   ```sh
-  yay -Sy awesome-git pamixer mpc mpd ncmpcpp playerctl xorg-xbacklight \
-  xdotool --needed
+  yay -Sy awesome-git pamixer mpc mpd ncmpcpp playerctl xorg-xbacklight rofi jq maim simple-mtpfs ffmpeg fuse2 wmctrl xclip \ xdotool --needed
   ```
 - Clonar este repositorio
 
