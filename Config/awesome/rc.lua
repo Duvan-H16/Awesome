@@ -4,42 +4,42 @@ require("awful.autofocus")
 local beautiful = require("beautiful")
 local getfs = require("gears.filesystem")
 
---[[ rc.lua binds entire configurations together.
+-[[RC.LUA une configuraciones completas juntas.
 
-file structure of whole configurations are as follows:
+La estructura de archivos de las configuraciones completas es la siguiente:
 
-1. assets folder has wallpapers, icons, picom and rofi configurations.
-2. config folder has all the necessary configurations. you might want to change. like what packages you use, keyboard shortcuts, wallpapers, startup programs.
-3. components folder has all of the components of configs, like notifications, bar, menu, windows management, etc.
-4. theme folder contains all colors, theming, etc.
-5. if you want to know more just read init.lua file inside of any of these folders/subfolders.
-]]--
+1. La carpeta de activos tiene fondos de pantalla, iconos, configuraciones PICOM y ROFI.
+2. La carpeta de configuración tiene todas las configuraciones necesarias. Es posible que desee cambiar. Como qué paquetes usa, atajos de teclado, fondos de pantalla, programas de inicio.
+3. La carpeta de componentes tiene todos los componentes de las configuraciones, como notificaciones, barra, menú, administración de Windows, etc.
+4. La carpeta de temas contiene todos los colores, temas, etc.
+5. Si desea saber más, solo lea el archivo init.lua dentro de cualquiera de estas carpetas/subcarpetas.
+]]-
 
 
--- all commands in awesome config will run in this shell
+- Todos los comandos en la configuración de Awesome se ejecutarán en este shell
 -- awful.util.shell = 'dash'
-awful.util.shell = 'sh'
+awful.util.shell = 'zsh'
 
--- Import theme
+-- Importar tema
 beautiful.init(getfs.get_configuration_dir() .. "theme/theme.lua")
 
--- Set Wallpapers
--- just add your wallpaper directory inside wallpaper.lua, to use your own wallpapers.
+- Establecer fondos de pantalla
+- Simplemente agregue su fondos de pantalla dentro de Wallpaper.lua, para usar sus propios fondos de pantalla.
 require("config.wallpaper")
 
--- notifications
+-- notificaciones
 require("components.notify")
 
--- notification center
+-- centro de notificaciones
 require("components.notify.center")
 
--- lockscreen, password is awesome. you can change that in the lockscreen.lua file
+-- Bloquear pantalla, la contraseña es increíble. Puede cambiar eso en el archivo Lockscreen.lua
 require("components.lockscreen")
 
--- exitscreen
+-- pantalla de salida
 require("components.exitscreen")
 
--- topbar
+-- Barra superior
 require("components.bar")
 
 -- menu
