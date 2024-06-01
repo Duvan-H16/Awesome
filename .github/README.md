@@ -21,8 +21,8 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
 |            | Programs           |
 | ---------- | ------------------ |
-| Terminal   | st, kitty          |
-| Shell      | mksh, dash         |
+| Terminal   | kitty              |
+| Shell      | zsh                |
 | Editor     | neovim             |
 
 <br>
