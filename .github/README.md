@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-	<img src=".assets/Screenshot.png" align="right" width="500px">
+	<img src=".Screenshot/Awesome.png" align="right" width="1080px">
 </p>
 
 ### ¡Bienvenido y gracias por pasarte!
