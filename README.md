@@ -39,7 +39,7 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
     ```sh
    git clone  https://github.com/Duvan-H16/Awesome.git
-   cd Awesome
+   cd config/Awesome
    [ -d "$HOME/.config/awesome" ] && mv $HOME/.config/awesome $HOME/.config/Bkpawesome
    [ -d "$HOME/.config/ncmpcpp" ] && mv $HOME/.config/ncmpcpp $HOME/.config/Bkpncmpcpp
    cd config
