@@ -31,7 +31,7 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
 - Instalar dependencias
   ```sh
-  yay -Sy awesome-git pulseaudio pamixer mpc mpd ncmpcpp playerctl xorg-xbacklight \
+  yay -Sy awesome-git pamixer mpc mpd ncmpcpp playerctl xorg-xbacklight \
   xdotool --needed
   ```
 - Clonar este repositorio
