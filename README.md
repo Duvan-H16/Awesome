@@ -39,13 +39,20 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
     ```sh
    git clone  https://github.com/Duvan-H16/Awesome.git
-   cd config/Awesome
+   cd Awesome/
    [ -d "$HOME/.config/awesome" ] && mv $HOME/.config/awesome $HOME/.config/Bkpawesome
    [ -d "$HOME/.config/ncmpcpp" ] && mv $HOME/.config/ncmpcpp $HOME/.config/Bkpncmpcpp
-   cd config
+   cd Config/
    cp -r awesome $HOME/.config/
    cp -r ncmpcpp $HOME/.config/
   ```
+- Copiar condifuracion de rofi
+  ```sh
+  $ mkdir -pv ~/.config/rofibkp
+  $ mv ~/.config/rofi ~/.config/rofibkp
+  ```
+  Instale las fuentes (elija cualquiera que desee) Nota: Hay 2-3 versiones de fuentes de diseño de materiales. Solo asegúrese de tener solo el que he puesto en la carpeta de fuentes.
+  
 - Instale todas las fuentes de la carpeta de fuentes
     ```sh
     cd ..
