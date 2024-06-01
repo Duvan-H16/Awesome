@@ -23,8 +23,8 @@ awful.util.shell = 'zsh'
 -- Importar tema
 beautiful.init(getfs.get_configuration_dir() .. "theme/theme.lua")
 
-- Establecer fondos de pantalla
-- Simplemente agregue su fondos de pantalla dentro de Wallpaper.lua, para usar sus propios fondos de pantalla.
+-- Establecer fondos de pantalla
+-- Simplemente agregue su fondos de pantalla dentro de Wallpaper.lua, para usar sus propios fondos de pantalla.
 require("config.wallpaper")
 
 -- notificaciones
@@ -53,13 +53,13 @@ Super+r		rofi
 ]]--
 require('config.keys')
 
--- windows/rules/clients managements, titlebars.. etc.
+-- Windows/Reglas/gestión de clientes, barras de título .. etc.
 require("components.windows")
 
--- startup profgrams. add your startup programs in startup script.
+-- Startup Profgrams. Agregue sus programas de inicio en el script de inicio.
 --awful.spawn.with_shell(getfs.get_configuration_dir() .. "config/startup")
 awful.spawn.with_shell("xrdb -merge ~/.xresources")
 
--- Collect Garbage
+-- Recolectar basura
 collectgarbage("setpause", 110)
 collectgarbage("setstepmul", 1000)
