@@ -46,12 +46,18 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
    cp -r awesome $HOME/.config/
    cp -r ncmpcpp $HOME/.config/
   ```
-- Copiar condifuracion de rofi
+- Copiar configuracion de rofi
   ```sh
   $ mkdir -pv ~/.config/rofibkp
   $ mv ~/.config/rofi ~/.config/rofibkp
   ```
   Instale las fuentes (elija cualquiera que desee) Nota: Hay 2-3 versiones de fuentes de diseño de materiales. Solo asegúrese de tener solo el que he puesto en la carpeta de fuentes.
+
+- Del sistema
+  ```sh
+  $ sudo cp -r ./fonts /usr/share/fonts/
+  $ fc-cache -fv
+  ```
   
 - Instale todas las fuentes de la carpeta de fuentes
     ```sh
