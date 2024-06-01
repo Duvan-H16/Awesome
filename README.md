@@ -58,7 +58,17 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
   $ sudo cp -r ./fonts /usr/share/fonts/
   $ fc-cache -fv
   ```
-  
+- Solo del usuario
+  ```sh
+  $ [ -d "$HOME/.local/share/fonts" ] || mkdir -pv $HOME/.local/share/fonts
+  $ cp -r ./fonts $HOME/.local/share/fonts
+  $ fc-cache -fv
+  ```
+- Copiar scripts y configuraciones de ROFI
+  ```sh
+  $ [ -d "$HOME/.config/rofi" ] || mkdir -pv $HOME/.config/rofi
+  $ cp -r ./rofi $HOME/.config
+  ```
 - Instale todas las fuentes de la carpeta de fuentes
     ```sh
     cd ..
