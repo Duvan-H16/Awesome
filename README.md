@@ -77,9 +77,9 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
     ```
 - Por último
 
-  Check out rc.lua file it contains documentation of awesome my config files. And go to config folder inside awesome and select your system specific programs.
+Consulte el archivo rc.lua, contiene documentación de Awesome mis archivos de configuración. Y vaya a la carpeta de configuración dentro de Awesome y seleccione los programas específicos de su sistema.
 
-  I've added xresources file if you want to change terminal colors to match with the rest of the setup you can use that (Optional)
+ Agregué el archivo XResources si desea cambiar los colores terminales para que coincidan con el resto de la configuración, puede usarlo (opcional)
 
 
 
