@@ -28,18 +28,14 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 <br>
 
 ## Collage de Imágenes
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <div style="flex: 1; min-width: 300px;">
-        <img src=".Screenshot/Awesome.png" width="100%">
-    </div>
-    <div style="flex: 1; min-width: 300px;">
-        <img src=".Screenshot/240613-2241-56.png" width="100%">
-    </div>
-    <div style="flex: 1; min-width: 300px;">
-        <img src=".Screenshot/240613-2242-21.png" width="100%">
-    </div>
-    <div style="flex: 1; min-width: 300px;">
+<div style="display: flex; gap: 10px;">
+    <div style="flex: 2;">
         <img src=".Screenshot/240613-2242-59.png" width="100%">
+    </div>
+    <div style="flex: 1; display: flex; flex-direction: colum; gap: 10px;">
+        <img src=".Screenshot/240613-2241-56.png" width="100%">
+        <img src=".Screenshot/240613-2242-21.png" width="100%">
+        <img src=".Screenshot/Awesome.png" width="100%">
     </div>
 </div>
 
