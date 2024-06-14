@@ -1,0 +1,12 @@
+#!/bin/sh
+
+start() {
+  if ! pgrep -f $1 ;
+  then
+    $@&
+  fi }
+
+--start picom --experimental-backends --config $HOME/.config/awesome/assets/configs/picom.conf
+--awful.spawn.with_shell("xrdb -merge ~/.xresources")
+--awful.spawn.with_shell("/usr/local/bin/hdmi-audio-monitor.sh")
+--awful.spawn.with_shell("picom --config ~/.config/awesome/assets/config/picom.conf")
