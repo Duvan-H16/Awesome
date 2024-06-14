@@ -28,7 +28,7 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 <br>
 
 ## Collage de Imágenes
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; aling-items: center; gap: 10px;">
     <div style="flex: 2;">
         <img src=".Screenshot/240613-2242-59.png" width="100%">
     </div>
