@@ -98,4 +98,5 @@ Consulte el archivo rc.lua, contiene documentación de Awesome mis archivos de c
 
 
 ## Créditos para
-  [elenapan's dotfiles for some part of configurations](https://github.com/elenapan/dotfiles)
+  [Los dotfiles de Elenapan para una parte de las configuraciones](https://github.com/elenapan/dotfiles) &
+  [Los dotfiles de niraj998](https://github.com/niraj998/awesome)
