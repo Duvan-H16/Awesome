@@ -27,6 +27,16 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 
 <br>
 
+## Collage de Imágenes
+<div align="center">
+    <img src=".Screenshot/240613-2241-13.png" width="300px">
+    <img src=".Screenshot/240613-2241-56.png" width="300px">
+    <img src=".Screenshot/240613-2242-21.png" width="300px">
+    <img src=".Screenshot/240613-2242-59.png" width="300px">
+</div>
+
+<br>
+
 ## Configuración
 
 - Instalar dependencias
