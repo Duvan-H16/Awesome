@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-	<img src=".Screenshot/Awesome.png" align="right" width="1080px">
+	<img src=".Screenshot/240613-2241-13.png" align="right" width="1080px">
 </p>
 
 ### ¡Bienvenido y gracias por pasarte!
@@ -28,11 +28,19 @@ Además del increíble administrador de ventanas, uso los siguientes programas.
 <br>
 
 ## Collage de Imágenes
-<div align="center">
-    <img src=".Screenshot/240613-2241-13.png" width="300px">
-    <img src=".Screenshot/240613-2241-56.png" width="300px">
-    <img src=".Screenshot/240613-2242-21.png" width="300px">
-    <img src=".Screenshot/240613-2242-59.png" width="300px">
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <div style="flex: 1; min-width: 300px;">
+        <img src=".Screenshot/Awesome.png" width="100%">
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+        <img src=".Screenshot/240613-2241-56.png" width="100%">
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+        <img src=".Screenshot/240613-2242-21.png" width="100%">
+    </div>
+    <div style="flex: 1; min-width: 300px;">
+        <img src=".Screenshot/240613-2242-59.png" width="100%">
+    </div>
 </div>
 
 <br>
